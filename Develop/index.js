@@ -43,6 +43,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "Please enter any collaborators and/or resources for the project.",
+        name: "credits"
+    },
+    {
+        type: "input",
         message: "Please enter your GitHub username.",
         name: "username"
     },
