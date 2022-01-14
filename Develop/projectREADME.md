@@ -3,9 +3,8 @@
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)  
   [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ## Description  
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.   
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.     
 ## Table of Contents  
-If your README is long, add a table of contents to make it easy for users to find what they need.  
   - [Badges](#badges)  
   - [Description](#description)  
   - [Installation](#installation)  
@@ -16,7 +15,7 @@ If your README is long, add a table of contents to make it easy for users to fin
   - [Tests](#tests)  
   - [Questions](#questions)  
 ## Installation  
-clone repo and npm i  
+Clone repo and npm i  
 ## Usage  
 Use as you wish  
 ## Credits  
