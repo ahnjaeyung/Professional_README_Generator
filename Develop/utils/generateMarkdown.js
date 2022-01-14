@@ -1,6 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 const licenses = ["Apache License 2.0", "BSD 3-Clause License", "GNU General Public License v3.0", "MIT License", "Mozilla Public License v2.0", "None"]
+
 function renderLicenseBadge(license) {
   if (license === licenses[0]) {
     return "[![License: Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
@@ -17,8 +16,6 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === licenses[0]) {
     return `[${licenses[0]}](https://opensource.org/licenses/Apache-2.0)`
@@ -35,8 +32,6 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === licenses[0]) {
     return `Read about ${licenses[0]}:`
@@ -53,7 +48,6 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}  
 ## Badges  
@@ -64,7 +58,7 @@ ${data.description}
 ## Table of Contents  
 If your README is long, add a table of contents to make it easy for users to find what they need.  
   - [Badges](#badges)  
-  - [Description] (#description)  
+  - [Description](#description)  
   - [Installation](#installation)  
   - [Usage](#usage)  
   - [Credits](#credits)  
@@ -91,4 +85,4 @@ or email me at: ${data.email}.
 `;
 }
 
-module.exports = generateMarkdown; //DO NOT CHANGE
+module.exports = generateMarkdown;
